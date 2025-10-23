@@ -182,6 +182,7 @@ func (c *conn) startQuery(ctx context.Context, query string) (string, error) {
 		QueryString: aws.String(query),
 		QueryExecutionContext: &types.QueryExecutionContext{
 			Database: aws.String(c.db),
+			Catalog:  aws.String(c.catalog),
 		},
 		ResultConfiguration: &types.ResultConfiguration{
 			OutputLocation: aws.String(c.OutputLocation),
