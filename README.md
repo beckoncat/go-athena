@@ -1,4 +1,4 @@
-[![](https://godoc.org/github.com/speee/go-athena?status.svg)](https://godoc.org/github.com/speee/go-athena)
+[![](https://godoc.org/github.com/beckoncat/go-athena?status.svg)](https://godoc.org/github.com/beckoncat/go-athena)
 
 **This repository is a fork of [speee/go-athena](https://github.com/speee/go-athena) (itself a fork of [segmentio/go-athena](https://github.com/segmentio/go-athena)). Since speee/go-athena is no longer being maintained, this repository will serve as an independently maintained continuation of the project.**
 
